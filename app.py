@@ -2,7 +2,9 @@
 import openai
 from flask import Flask, request, render_template
 
+
 openai.api_key = 'your key'
+
 
 import json
 
