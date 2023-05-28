@@ -1,0 +1,20 @@
+{
+    "Name": "John Doe",
+    "Age": 30,
+    "Occupation": "Software Developer",
+    "Education": {
+        "High School": "XYZ High School",
+        "Undergraduate": "ABC University",
+        "Postgraduate": "DEF University"
+    },
+    "Skills": ["Python", "Machine Learning", "Data Analysis"],
+    "Hobbies": ["Reading", "Hiking", "Coding"],
+    "Contact Info": {
+        "Email": "johndoe@example.com",
+        "Phone": "123-456-7890"
+    },
+    "Social Media": {
+        "LinkedIn": "https://www.linkedin.com/in/johndoe/",
+        "GitHub": "https://github.com/johndoe"
+    }
+}

@@ -1,0 +1,21 @@
+
+
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My GPT App</title>
+</head>
+<body>
+    <h1>My GPT App</h1>
+    <form method="POST">
+        <label for="prompt">Enter your prompt:</label><br>
+        <input type="text" id="prompt" name="prompt" required><br>
+        <input type="submit" value="Submit">
+    </form>
+    {% if gpt_response %}
+    <p>GPT response: {{ gpt_response }}</p>
+    {% endif %}
+</body>
+</html>
+
