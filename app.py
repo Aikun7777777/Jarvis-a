@@ -3,7 +3,8 @@ import openai
 from flask import Flask, request, render_template
 
 
-openai.api_key = 'your key'
+openai.api_key = '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'
+
 
 
 import json
@@ -27,7 +28,7 @@ def home():
     return render_template('index.html')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host = '0.0.0.0', port=5001, debug=True)
 
 
 # # 从 'personal_info.json' 文件中加载个人信息
